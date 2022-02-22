@@ -1,0 +1,60 @@
+.matches__list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto 5vw;
+
+  @media (max-width: 1515px) {
+    max-width: 95%;
+    margin: 0 auto 7vw;
+  }
+
+  @media (max-width: 860px) {
+    max-width: 1500px;
+  }
+}
+
+.match-item {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--text-color);
+  transition: transform 200ms ease;
+  flex: 0 0 33.3%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+  @media (max-width: 1515px) {
+    flex: 0 0 46%;
+
+    @include padding;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.9vw;
+  }
+
+  @media (max-width: 1090px) {
+    font-size: 1.94vw;
+  }
+
+  @media (max-width: 860px) {
+    flex: 100%;
+
+    @include padding;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin: 0 auto;
+    font-size: 4vw;
+  }
+
+  &:hover {
+    transform: translateX(2rem);
+    color: var(--accent-color);
+  }
+}
+
+[data-visited] {
+  color: var(--accent-color);
+  transform: translateX(-0.5rem);
+}

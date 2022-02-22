@@ -1,0 +1,141 @@
+fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex: 0 0 100%;
+
+  &:not(:first-child) {
+    padding: 0;
+    margin-top: 1rem;
+  }
+}
+
+.nav-metrics {
+  display: flex;
+  background: var(--nav-background);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  width: 20rem;
+  height: 100vh;
+  border-left: 1px solid var(--nav-border-color);
+  box-shadow: var(--nav-box-shadow);
+  transition: transform 200ms ease;
+  z-index: 7;
+
+  [data-theme='dark'] & {
+    box-shadow: none;
+  }
+}
+
+[data-active='0'] {
+  transform: translateX(24rem);
+  transition: transform 200ms ease, right 200ms ease 200ms;
+}
+
+[data-active='1'] {
+  transform: translateX(0);
+  right: 0;
+}
+
+.nav-controls {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 253px;
+}
+
+.metric-input {
+  display: block;
+  background: white;
+  width: 94%;
+  padding: 0.2rem 0.3rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.metric-select {
+  background: var(--nav-input-color);
+  width: 100%;
+  padding: 0.2rem 0.3rem;
+  border-radius: 5px;
+}
+
+.metric-label {
+  color: var(--text-color);
+  padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.metric-compare-text {
+  color: var(--text-color);
+  text-align: left;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  font-family: 'Alegreya', serif;
+}
+
+.metric-input,
+.metric-select {
+  border: var(--input-border);
+}
+
+.metric-input,
+.metric-select,
+.metric-option {
+  font-size: 1.2rem;
+
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+
+.metric-label {
+  font-size: 1.7rem;
+
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
+  }
+}
+
+.nav-menu {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 6;
+  transition: transform 200ms ease;
+
+  &[data-sticky='0'] {
+    transform: translateX(5rem);
+    transition: transform 200ms ease, right 200ms ease 200ms;
+    right: -200px;
+  }
+
+  &[data-sticky='1'] {
+    transform: translateX(0);
+  }
+}
+
+[data-deactivate-metrics] {
+  margin-top: 1rem;
+}
+
+[data-fieldset='compare'] {
+  flex-direction: row;
+}
+
+[data-metric='compare'] {
+  height: 2rem;
+  margin: 0;
+  width: 2rem;
+}
+
+.metric-wrapper {
+  display: flex;
+  align-items: center;
+}

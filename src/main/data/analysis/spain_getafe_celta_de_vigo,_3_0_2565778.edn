@@ -1,0 +1,633 @@
+{:match-id 2565778,
+ :label "Getafe - Celta de Vigo, 3 - 0",
+ :teams-info
+ {:692
+  {:city "Vigo",
+   :name "Celta de Vigo",
+   :wy-id 692,
+   :official-name "Real Club Celta de Vigo",
+   :area
+   {:name "Spain", :id "724", :alpha-3code "ESP", :alpha-2code "ES"},
+   :type "club"},
+  :698
+  {:city "Getafe (Madrid)",
+   :name "Getafe",
+   :wy-id 698,
+   :official-name "Getafe Club de F\\u00fatbol",
+   :area
+   {:name "Spain", :id "724", :alpha-3code "ESP", :alpha-2code "ES"},
+   :type "club"}},
+ :match-info
+ {:winner 698,
+  :home-away {:home 698, :away 692},
+  :competition-id 795,
+  :gameweek 24,
+  :duration "Regular",
+  :season-id 181144,
+  :round-id 4406122,
+  :group-name nil,
+  :status "Played",
+  :venue "Coliseum Alfonso P\\u00e9rez",
+  :dateutc "2018-02-19 20:00:00",
+  :home-away-id {:698 :home, :692 :away}},
+ :nodes
+ {:698
+  ({:id "25888",
+    :pos "25888",
+    :short-name ("F. Fajr"),
+    :current-national-team-id 698,
+    :average-pos [29.785715 44.07143020629883],
+    :metrics
+    {:out-degree 14.0,
+     :in-degree 14.0,
+     :current_flow_betweenness_centrality 0.05148171947427436,
+     :katz-centrality 1.1655069950970482,
+     :degree 28.0,
+     :alpha-centrality 1.1655069950970482,
+     :betweenness-centrality 0.14617283950617282,
+     :local-clustering-coefficient 0.5222222222222223,
+     :closeness-centrality 0.5,
+     :eigenvector-centrality 7.787418181818182E-6}}
+   {:id "45934131",
+    :pos "45934131",
+    :short-name ("Sergio Mora" "Ángel"),
+    :current-national-team-id 698,
+    :average-pos [36.964287 39.96428680419922],
+    :metrics
+    {:out-degree 15.0,
+     :in-degree 13.0,
+     :current_flow_betweenness_centrality -0.05637402130018601,
+     :katz-centrality 1.1623299163781646,
+     :degree 28.0,
+     :alpha-centrality 1.1623299163781646,
+     :betweenness-centrality 0.08245149911816578,
+     :local-clustering-coefficient 0.7333333333333333,
+     :closeness-centrality 0.47619047619047616,
+     :eigenvector-centrality 9.329754545454545E-6}}
+   {:id "250805",
+    :pos "250805",
+    :short-name ("Djené"),
+    :current-national-team-id 698,
+    :average-pos [64.0 71.7272720336914],
+    :metrics
+    {:out-degree 9.0,
+     :in-degree 2.0,
+     :current_flow_betweenness_centrality 0.03487774383151063,
+     :katz-centrality 1.0239303986193118,
+     :degree 11.0,
+     :alpha-centrality 1.0239303986193118,
+     :betweenness-centrality 0.01148148148148148,
+     :local-clustering-coefficient 0.6,
+     :closeness-centrality 0.43478260869565216,
+     :eigenvector-centrality 1.2185272727272728E-6}}
+   {:id "3572",
+    :pos "3572",
+    :short-name ("Portillo"),
+    :current-national-team-id 698,
+    :average-pos [63.945454 42.78181838989258],
+    :metrics
+    {:out-degree 25.0,
+     :in-degree 30.0,
+     :current_flow_betweenness_centrality 0.03776072705467449,
+     :katz-centrality 1.3495490759607227,
+     :degree 55.0,
+     :alpha-centrality 1.3495490759607227,
+     :betweenness-centrality 0.0362962962962963,
+     :local-clustering-coefficient 0.5416666666666666,
+     :closeness-centrality 0.3333333333333333,
+     :eigenvector-centrality 1.6135554545454547E-5}}
+   {:id "286448",
+    :pos "286448",
+    :short-name ("M. Arambarri"),
+    :current-national-team-id 698,
+    :average-pos [65.5 53.1875],
+    :metrics
+    {:out-degree 8.0,
+     :in-degree 8.0,
+     :current_flow_betweenness_centrality -0.01592561189633249,
+     :katz-centrality 1.0935945094402537,
+     :degree 16.0,
+     :alpha-centrality 1.0935945094402537,
+     :betweenness-centrality 0.12054673721340389,
+     :local-clustering-coefficient 0.5476190476190477,
+     :closeness-centrality 0.47619047619047616,
+     :eigenvector-centrality 4.017545454545455E-6}}
+   {:id "344140376474",
+    :pos "344140376474",
+    :short-name ("M. Ndockyt" "A. Ndiaye"),
+    :current-national-team-id 698,
+    :average-pos [34.76 33.160003662109375],
+    :metrics
+    {:out-degree 12.0,
+     :in-degree 13.0,
+     :current_flow_betweenness_centrality -3.29516445812751E-4,
+     :katz-centrality 1.156765492183039,
+     :degree 25.0,
+     :alpha-centrality 1.156765492183039,
+     :betweenness-centrality 0.14239858906525574,
+     :local-clustering-coefficient 0.625,
+     :closeness-centrality 0.47619047619047616,
+     :eigenvector-centrality 7.926927272727273E-6}}
+   {:id "360525577",
+    :pos "360525577",
+    :short-name ("L. Rémy" "Jorge Molina"),
+    :current-national-team-id 698,
+    :average-pos [54.9 34.366668701171875],
+    :metrics
+    {:out-degree 14.0,
+     :in-degree 16.0,
+     :current_flow_betweenness_centrality 0.0463160533747661,
+     :katz-centrality 1.1974507554858964,
+     :degree 30.0,
+     :alpha-centrality 1.1974507554858964,
+     :betweenness-centrality 0.08383597883597883,
+     :local-clustering-coefficient 0.6428571428571429,
+     :closeness-centrality 0.45454545454545453,
+     :eigenvector-centrality 1.1381909090909092E-5}}
+   {:id "3974",
+    :pos "3974",
+    :short-name ("D. Suárez"),
+    :current-national-team-id 698,
+    :average-pos [86.324326 44.4054069519043],
+    :metrics
+    {:out-degree 18.0,
+     :in-degree 19.0,
+     :current_flow_betweenness_centrality 0.03064271669900024,
+     :katz-centrality 1.2275639479320564,
+     :degree 37.0,
+     :alpha-centrality 1.2275639479320564,
+     :betweenness-centrality 0.09074074074074073,
+     :local-clustering-coefficient 0.5357142857142857,
+     :closeness-centrality 0.5263157894736842,
+     :eigenvector-centrality 1.1250963636363637E-5}}
+   {:id "3885",
+    :pos "3885",
+    :short-name ("L. Cabrera"),
+    :current-national-team-id 698,
+    :average-pos [17.666666 47.74074172973633],
+    :metrics
+    {:out-degree 12.0,
+     :in-degree 15.0,
+     :current_flow_betweenness_centrality 0.07700572329201764,
+     :katz-centrality 1.1741863318458836,
+     :degree 27.0,
+     :alpha-centrality 1.1741863318458836,
+     :betweenness-centrality 0.02261904761904762,
+     :local-clustering-coefficient 0.6428571428571429,
+     :closeness-centrality 0.47619047619047616,
+     :eigenvector-centrality 7.808636363636364E-6}}
+   {:id "3267",
+    :pos "3267",
+    :short-name ("Guaita"),
+    :current-national-team-id 698,
+    :average-pos [49.545456 77.2727279663086],
+    :metrics
+    {:out-degree 6.0,
+     :in-degree 5.0,
+     :current_flow_betweenness_centrality 0.011639895739868835,
+     :katz-centrality 1.0531642297188581,
+     :degree 11.0,
+     :alpha-centrality 1.0531642297188581,
+     :betweenness-centrality 0.05896825396825397,
+     :local-clustering-coefficient 0.6190476190476191,
+     :closeness-centrality 0.5882352941176471,
+     :eigenvector-centrality 8.601272727272727E-7}}
+   {:id "5677",
+    :pos "5677",
+    :short-name ("Bruno"),
+    :current-national-team-id 698,
+    :average-pos [33.583332 70.66666603088379],
+    :metrics
+    {:out-degree 7.0,
+     :in-degree 5.0,
+     :current_flow_betweenness_centrality 0.016102878718990965,
+     :katz-centrality 1.0559093351028064,
+     :degree 12.0,
+     :alpha-centrality 1.0559093351028064,
+     :betweenness-centrality 0.07728395061728395,
+     :local-clustering-coefficient 0.36666666666666664,
+     :closeness-centrality 0.4166666666666667,
+     :eigenvector-centrality 1.575618181818182E-6}}),
+  :692
+  ({:id "140125241945",
+    :pos "140125241945",
+    :short-name ("P. Sisto" "N. Radoja"),
+    :current-national-team-id 692,
+    :average-pos [23.423729 38.220340728759766],
+    :metrics
+    {:out-degree 28.0,
+     :in-degree 31.0,
+     :current_flow_betweenness_centrality 0.03628706381554514,
+     :katz-centrality 1.5685559901312274,
+     :degree 59.0,
+     :alpha-centrality 1.5685559901312274,
+     :betweenness-centrality 0.0927873977873978,
+     :local-clustering-coefficient 0.9444444444444444,
+     :closeness-centrality 0.5263157894736842,
+     :eigenvector-centrality 2.142298298524155E-5}}
+   {:id "3822",
+    :pos "3822",
+    :short-name ("Rubén Blanco"),
+    :current-national-team-id 692,
+    :average-pos [51.408165 88.16326522827148],
+    :metrics
+    {:out-degree 24.0,
+     :in-degree 25.0,
+     :current_flow_betweenness_centrality -0.1386937270655657,
+     :katz-centrality 1.482801441947817,
+     :degree 49.0,
+     :alpha-centrality 1.482801441947817,
+     :betweenness-centrality 0.050437710437710434,
+     :local-clustering-coefficient 0.9821428571428571,
+     :closeness-centrality 0.4166666666666667,
+     :eigenvector-centrality 1.9420919500518092E-5}}
+   {:id "167641",
+    :pos "167641",
+    :short-name ("S. Lobotka"),
+    :current-national-team-id 692,
+    :average-pos [38.22449 49.21428680419922],
+    :metrics
+    {:out-degree 48.0,
+     :in-degree 50.0,
+     :current_flow_betweenness_centrality -0.056104311476936855,
+     :katz-centrality 1.904550518344355,
+     :degree 98.0,
+     :alpha-centrality 1.904550518344355,
+     :betweenness-centrality 0.021111111111111112,
+     :local-clustering-coefficient 0.8777777777777778,
+     :closeness-centrality 0.45454545454545453,
+     :eigenvector-centrality 3.3694386757846574E-5}}
+   {:id "26652",
+    :pos "26652",
+    :short-name ("D. Wass"),
+    :current-national-team-id 692,
+    :average-pos [75.61905 43.119049072265625],
+    :metrics
+    {:out-degree 42.0,
+     :in-degree 42.0,
+     :current_flow_betweenness_centrality -0.029026156158354036,
+     :katz-centrality 1.7639988916998282,
+     :degree 84.0,
+     :alpha-centrality 1.7639988916998282,
+     :betweenness-centrality 0.09112273528940194,
+     :local-clustering-coefficient 0.8777777777777778,
+     :closeness-centrality 0.4166666666666667,
+     :eigenvector-centrality 2.881958688543711E-5}}
+   {:id "395636",
+    :pos "395636",
+    :short-name ("Maxi Gómez"),
+    :current-national-team-id 692,
+    :average-pos [48.91892 45.75675582885742],
+    :metrics
+    {:out-degree 20.0,
+     :in-degree 17.0,
+     :current_flow_betweenness_centrality -0.030476215370608607,
+     :katz-centrality 1.3059201773402205,
+     :degree 37.0,
+     :alpha-centrality 1.3059201773402205,
+     :betweenness-centrality 0.18403639570306238,
+     :local-clustering-coefficient 0.8777777777777778,
+     :closeness-centrality 0.5263157894736842,
+     :eigenvector-centrality 1.141865813040535E-5}}
+   {:id "4424",
+    :pos "4424",
+    :short-name ("Jonny"),
+    :current-national-team-id 692,
+    :average-pos [13.254717 52.75471878051758],
+    :metrics
+    {:out-degree 52.0,
+     :in-degree 54.0,
+     :current_flow_betweenness_centrality -0.09603872951907147,
+     :katz-centrality 1.9634896916605924,
+     :degree 106.0,
+     :alpha-centrality 1.9634896916605924,
+     :betweenness-centrality 0.030998075998075997,
+     :local-clustering-coefficient 0.8888888888888888,
+     :closeness-centrality 0.38461538461538464,
+     :eigenvector-centrality 3.548225683386991E-5}}
+   {:id "3840",
+    :pos "3840",
+    :short-name ("Iago Aspas"),
+    :current-national-team-id 692,
+    :average-pos [67.14634 32.146339416503906],
+    :metrics
+    {:out-degree 18.0,
+     :in-degree 23.0,
+     :current_flow_betweenness_centrality 0.016326683067265563,
+     :katz-centrality 1.423050946207308,
+     :degree 41.0,
+     :alpha-centrality 1.423050946207308,
+     :betweenness-centrality 0.07370129870129868,
+     :local-clustering-coefficient 0.9722222222222222,
+     :closeness-centrality 0.5,
+     :eigenvector-centrality 1.616955195913189E-5}}
+   {:id "3338",
+    :pos "3338",
+    :short-name ("Sergi Gómez"),
+    :current-national-team-id 692,
+    :average-pos [24.88 61.400001525878906],
+    :metrics
+    {:out-degree 52.0,
+     :in-degree 48.0,
+     :current_flow_betweenness_centrality -0.10408163684637514,
+     :katz-centrality 1.8669741459804845,
+     :degree 100.0,
+     :alpha-centrality 1.8669741459804845,
+     :betweenness-centrality 0.05314093314093314,
+     :local-clustering-coefficient 0.8888888888888888,
+     :closeness-centrality 0.38461538461538464,
+     :eigenvector-centrality 3.247601948544182E-5}}
+   {:id "3827",
+    :pos "3827",
+    :short-name ("Hugo Mallo"),
+    :current-national-team-id 692,
+    :average-pos [83.24468 53.053192138671875],
+    :metrics
+    {:out-degree 45.0,
+     :in-degree 49.0,
+     :current_flow_betweenness_centrality -0.12398275598053222,
+     :katz-centrality 1.9096258065719436,
+     :degree 94.0,
+     :alpha-centrality 1.9096258065719436,
+     :betweenness-centrality 0.0591053391053391,
+     :local-clustering-coefficient 0.8888888888888888,
+     :closeness-centrality 0.3225806451612903,
+     :eigenvector-centrality 3.486861362007018E-5}}
+   {:id "269060281255",
+    :pos "269060281255",
+    :short-name ("E. Mor" "P. Hernández"),
+    :current-national-team-id 692,
+    :average-pos [50.39423 56.11538314819336],
+    :metrics
+    {:out-degree 54.0,
+     :in-degree 50.0,
+     :current_flow_betweenness_centrality -0.01243666987179999,
+     :katz-centrality 1.9193266456336877,
+     :degree 104.0,
+     :alpha-centrality 1.9193266456336877,
+     :betweenness-centrality 0.03166666666666667,
+     :local-clustering-coefficient 0.8666666666666667,
+     :closeness-centrality 0.43478260869565216,
+     :eigenvector-centrality 3.492029715559592E-5}}
+   {:id "86183334817",
+    :pos "86183334817",
+    :short-name ("L. Boyé" "F. Roncaglia"),
+    :current-national-team-id 692,
+    :average-pos [70.225 58.50833511352539],
+    :metrics
+    {:out-degree 63.0,
+     :in-degree 57.0,
+     :current_flow_betweenness_centrality 0.011868488092209212,
+     :katz-centrality 2.017537589914438,
+     :degree 120.0,
+     :alpha-centrality 2.017537589914438,
+     :betweenness-centrality 0.005,
+     :local-clustering-coefficient 0.8666666666666667,
+     :closeness-centrality 0.45454545454545453,
+     :eigenvector-centrality 3.769033206648534E-5}})},
+ :links
+ {:692
+  ({:source "167641", :target "395636", :team-id 692, :value 1}
+   {:source "3822", :target "167641", :team-id 692, :value 1}
+   {:source "4424", :target "26652", :team-id 692, :value 1}
+   {:source "395636", :target "3840", :team-id 692, :value 1}
+   {:source "4424", :target "3827", :team-id 692, :value 1}
+   {:source "167641", :target "3822", :team-id 692, :value 1}
+   {:source "26652", :target "3822", :team-id 692, :value 1}
+   {:source "3338", :target "140125241945", :team-id 692, :value 1}
+   {:source "140125241945", :target "395636", :team-id 692, :value 1}
+   {:source "86183334817",
+    :target "140125241945",
+    :team-id 692,
+    :value 1}
+   {:source "3827", :target "4424", :team-id 692, :value 1}
+   {:source "395636", :target "3827", :team-id 692, :value 1}
+   {:source "395636", :target "3338", :team-id 692, :value 1}
+   {:source "3840", :target "395636", :team-id 692, :value 1}
+   {:source "269060281255", :target "3840", :team-id 692, :value 1}
+   {:source "3822", :target "269060281255", :team-id 692, :value 1}
+   {:source "140125241945", :target "3827", :team-id 692, :value 1}
+   {:source "3840", :target "3338", :team-id 692, :value 1}
+   {:source "395636", :target "26652", :team-id 692, :value 1}
+   {:source "86183334817", :target "395636", :team-id 692, :value 1}
+   {:source "140125241945", :target "3840", :team-id 692, :value 1}
+   {:source "26652", :target "140125241945", :team-id 692, :value 2}
+   {:source "3840", :target "86183334817", :team-id 692, :value 2}
+   {:source "3840", :target "269060281255", :team-id 692, :value 2}
+   {:source "3827", :target "395636", :team-id 692, :value 2}
+   {:source "4424", :target "395636", :team-id 692, :value 2}
+   {:source "3840", :target "167641", :team-id 692, :value 2}
+   {:source "269060281255", :target "26652", :team-id 692, :value 2}
+   {:source "269060281255", :target "3827", :team-id 692, :value 2}
+   {:source "140125241945",
+    :target "269060281255",
+    :team-id 692,
+    :value 2}
+   {:source "269060281255", :target "395636", :team-id 692, :value 2}
+   {:source "3338", :target "86183334817", :team-id 692, :value 2}
+   {:source "26652", :target "4424", :team-id 692, :value 2}
+   {:source "140125241945",
+    :target "86183334817",
+    :team-id 692,
+    :value 2}
+   {:source "3822", :target "395636", :team-id 692, :value 2}
+   {:source "140125241945", :target "3338", :team-id 692, :value 2}
+   {:source "26652", :target "395636", :team-id 692, :value 2}
+   {:source "3822", :target "26652", :team-id 692, :value 2}
+   {:source "269060281255", :target "3822", :team-id 692, :value 2}
+   {:source "3822", :target "4424", :team-id 692, :value 2}
+   {:source "3840", :target "140125241945", :team-id 692, :value 2}
+   {:source "3338", :target "395636", :team-id 692, :value 3}
+   {:source "395636", :target "269060281255", :team-id 692, :value 3}
+   {:source "395636", :target "4424", :team-id 692, :value 3}
+   {:source "3827", :target "3338", :team-id 692, :value 3}
+   {:source "395636", :target "140125241945", :team-id 692, :value 3}
+   {:source "4424", :target "3840", :team-id 692, :value 3}
+   {:source "86183334817", :target "167641", :team-id 692, :value 3}
+   {:source "26652", :target "269060281255", :team-id 692, :value 3}
+   {:source "26652", :target "167641", :team-id 692, :value 3}
+   {:source "395636", :target "86183334817", :team-id 692, :value 3}
+   {:source "3840", :target "3827", :team-id 692, :value 3}
+   {:source "86183334817", :target "3840", :team-id 692, :value 3}
+   {:source "140125241945", :target "26652", :team-id 692, :value 3}
+   {:source "395636", :target "167641", :team-id 692, :value 4}
+   {:source "4424", :target "269060281255", :team-id 692, :value 4}
+   {:source "86183334817", :target "4424", :team-id 692, :value 4}
+   {:source "167641", :target "4424", :team-id 692, :value 4}
+   {:source "167641", :target "3827", :team-id 692, :value 4}
+   {:source "26652", :target "86183334817", :team-id 692, :value 4}
+   {:source "269060281255",
+    :target "140125241945",
+    :team-id 692,
+    :value 5}
+   {:source "3827", :target "3822", :team-id 692, :value 5}
+   {:source "86183334817", :target "3338", :team-id 692, :value 5}
+   {:source "3840", :target "26652", :team-id 692, :value 5}
+   {:source "26652", :target "3338", :team-id 692, :value 5}
+   {:source "140125241945", :target "167641", :team-id 692, :value 5}
+   {:source "3827", :target "167641", :team-id 692, :value 5}
+   {:source "167641", :target "140125241945", :team-id 692, :value 5}
+   {:source "3338", :target "167641", :team-id 692, :value 6}
+   {:source "3827", :target "269060281255", :team-id 692, :value 6}
+   {:source "3827", :target "3840", :team-id 692, :value 6}
+   {:source "269060281255", :target "167641", :team-id 692, :value 6}
+   {:source "4424", :target "3338", :team-id 692, :value 7}
+   {:source "3338", :target "3822", :team-id 692, :value 7}
+   {:source "3827", :target "86183334817", :team-id 692, :value 7}
+   {:source "4424", :target "86183334817", :team-id 692, :value 7}
+   {:source "3822", :target "3338", :team-id 692, :value 8}
+   {:source "269060281255", :target "3338", :team-id 692, :value 8}
+   {:source "3822", :target "86183334817", :team-id 692, :value 8}
+   {:source "167641", :target "26652", :team-id 692, :value 8}
+   {:source "3338", :target "3827", :team-id 692, :value 8}
+   {:source "167641", :target "269060281255", :team-id 692, :value 8}
+   {:source "167641", :target "3338", :team-id 692, :value 8}
+   {:source "26652", :target "3840", :team-id 692, :value 8}
+   {:source "167641", :target "86183334817", :team-id 692, :value 9}
+   {:source "86183334817", :target "3822", :team-id 692, :value 9}
+   {:source "3827", :target "26652", :team-id 692, :value 10}
+   {:source "86183334817", :target "26652", :team-id 692, :value 10}
+   {:source "86183334817",
+    :target "269060281255",
+    :team-id 692,
+    :value 10}
+   {:source "140125241945", :target "4424", :team-id 692, :value 11}
+   {:source "3338", :target "269060281255", :team-id 692, :value 11}
+   {:source "26652", :target "3827", :team-id 692, :value 12}
+   {:source "4424", :target "140125241945", :team-id 692, :value 12}
+   {:source "269060281255",
+    :target "86183334817",
+    :team-id 692,
+    :value 13}
+   {:source "269060281255", :target "4424", :team-id 692, :value 13}
+   {:source "3338", :target "4424", :team-id 692, :value 14}
+   {:source "4424", :target "167641", :team-id 692, :value 15}
+   {:source "86183334817", :target "3827", :team-id 692, :value 17}),
+  :698
+  ({:source "360525577",
+    :target "344140376474",
+    :team-id 698,
+    :value 1}
+   {:source "3974", :target "344140376474", :team-id 698, :value 1}
+   {:source "360525577", :target "45934131", :team-id 698, :value 1}
+   {:source "3267", :target "3974", :team-id 698, :value 1}
+   {:source "286448", :target "45934131", :team-id 698, :value 1}
+   {:source "3267", :target "286448", :team-id 698, :value 1}
+   {:source "45934131", :target "286448", :team-id 698, :value 1}
+   {:source "25888", :target "3572", :team-id 698, :value 1}
+   {:source "3974", :target "250805", :team-id 698, :value 1}
+   {:source "45934131", :target "344140376474", :team-id 698, :value 1}
+   {:source "286448", :target "25888", :team-id 698, :value 1}
+   {:source "3974", :target "25888", :team-id 698, :value 1}
+   {:source "344140376474", :target "3974", :team-id 698, :value 1}
+   {:source "250805", :target "5677", :team-id 698, :value 1}
+   {:source "3885", :target "360525577", :team-id 698, :value 1}
+   {:source "25888", :target "5677", :team-id 698, :value 1}
+   {:source "344140376474", :target "3267", :team-id 698, :value 1}
+   {:source "3572", :target "286448", :team-id 698, :value 1}
+   {:source "3267", :target "5677", :team-id 698, :value 1}
+   {:source "3885", :target "25888", :team-id 698, :value 1}
+   {:source "5677", :target "360525577", :team-id 698, :value 1}
+   {:source "286448", :target "3572", :team-id 698, :value 1}
+   {:source "3267", :target "25888", :team-id 698, :value 1}
+   {:source "25888", :target "250805", :team-id 698, :value 1}
+   {:source "344140376474", :target "25888", :team-id 698, :value 2}
+   {:source "3885", :target "45934131", :team-id 698, :value 2}
+   {:source "250805", :target "3572", :team-id 698, :value 2}
+   {:source "25888", :target "3974", :team-id 698, :value 2}
+   {:source "3974", :target "360525577", :team-id 698, :value 2}
+   {:source "5677", :target "3885", :team-id 698, :value 2}
+   {:source "45934131", :target "3885", :team-id 698, :value 2}
+   {:source "3267", :target "3572", :team-id 698, :value 2}
+   {:source "360525577", :target "3885", :team-id 698, :value 2}
+   {:source "5677", :target "286448", :team-id 698, :value 2}
+   {:source "344140376474",
+    :target "360525577",
+    :team-id 698,
+    :value 2}
+   {:source "250805", :target "25888", :team-id 698, :value 2}
+   {:source "286448", :target "344140376474", :team-id 698, :value 2}
+   {:source "3885", :target "5677", :team-id 698, :value 2}
+   {:source "3974", :target "3885", :team-id 698, :value 2}
+   {:source "5677", :target "3267", :team-id 698, :value 2}
+   {:source "25888", :target "344140376474", :team-id 698, :value 2}
+   {:source "250805", :target "3974", :team-id 698, :value 2}
+   {:source "250805", :target "3267", :team-id 698, :value 2}
+   {:source "286448", :target "3974", :team-id 698, :value 3}
+   {:source "344140376474", :target "3885", :team-id 698, :value 3}
+   {:source "25888", :target "45934131", :team-id 698, :value 3}
+   {:source "3885", :target "3572", :team-id 698, :value 3}
+   {:source "3885", :target "344140376474", :team-id 698, :value 3}
+   {:source "344140376474", :target "3572", :team-id 698, :value 3}
+   {:source "3974", :target "286448", :team-id 698, :value 3}
+   {:source "3572", :target "25888", :team-id 698, :value 3}
+   {:source "360525577", :target "25888", :team-id 698, :value 3}
+   {:source "360525577", :target "3572", :team-id 698, :value 3}
+   {:source "3572", :target "344140376474", :team-id 698, :value 3}
+   {:source "25888", :target "3885", :team-id 698, :value 4}
+   {:source "45934131", :target "360525577", :team-id 698, :value 4}
+   {:source "360525577", :target "3974", :team-id 698, :value 4}
+   {:source "3572", :target "45934131", :team-id 698, :value 6}
+   {:source "3572", :target "360525577", :team-id 698, :value 6}
+   {:source "3572", :target "3974", :team-id 698, :value 6}
+   {:source "45934131", :target "3572", :team-id 698, :value 7}
+   {:source "3974", :target "3572", :team-id 698, :value 8})},
+ :stats
+ {:global
+  {:out-degree {:min 6.0, :max 63.0},
+   :passes {:min 1, :max 17},
+   :in-degree {:min 2.0, :max 57.0},
+   :current_flow_betweenness_centrality
+   {:min -0.1386937270655657, :max 0.07700572329201764},
+   :katz-centrality {:min 1.0239303986193118, :max 2.017537589914438},
+   :degree {:min 11.0, :max 120.0},
+   :alpha-centrality {:min 1.0239303986193118, :max 2.017537589914438},
+   :betweenness-centrality {:min 0.005, :max 0.18403639570306238},
+   :local-clustering-coefficient
+   {:min 0.36666666666666664, :max 0.9821428571428571},
+   :closeness-centrality
+   {:min 0.3225806451612903, :max 0.5882352941176471},
+   :eigenvector-centrality
+   {:min 8.601272727272727E-7, :max 3.769033206648534E-5}},
+  :home
+  {:out-degree {:min 6.0, :max 25.0},
+   :average-clustering-coefficient 0.5797258297258296,
+   :algebraic-connectivity 9.414556516159315,
+   :global-clustering-coefficient 0.7241379310344828,
+   :average-node-connectivity 4.672727272727273,
+   :passes {:min 1, :max 8},
+   :in-degree {:min 2.0, :max 30.0},
+   :current_flow_betweenness_centrality
+   {:min -0.05637402130018601, :max 0.07700572329201764},
+   :katz-centrality {:min 1.0239303986193118, :max 1.3495490759607227},
+   :degree {:min 11.0, :max 55.0},
+   :alpha-centrality
+   {:min 1.0239303986193118, :max 1.3495490759607227},
+   :betweenness-centrality
+   {:min 0.01148148148148148, :max 0.14617283950617282},
+   :local-clustering-coefficient
+   {:min 0.36666666666666664, :max 0.7333333333333333},
+   :closeness-centrality
+   {:min 0.3333333333333333, :max 0.5882352941176471},
+   :eigenvector-centrality
+   {:min 8.601272727272727E-7, :max 1.6135554545454547E-5}},
+  :away
+  {:out-degree {:min 18.0, :max 63.0},
+   :average-clustering-coefficient 0.902922077922078,
+   :algebraic-connectivity 38.522177153935715,
+   :global-clustering-coefficient 0.9652173913043478,
+   :average-node-connectivity 8.245454545454546,
+   :passes {:min 1, :max 17},
+   :in-degree {:min 17.0, :max 57.0},
+   :current_flow_betweenness_centrality
+   {:min -0.1386937270655657, :max 0.03628706381554514},
+   :katz-centrality {:min 1.3059201773402205, :max 2.017537589914438},
+   :degree {:min 37.0, :max 120.0},
+   :alpha-centrality {:min 1.3059201773402205, :max 2.017537589914438},
+   :betweenness-centrality {:min 0.005, :max 0.18403639570306238},
+   :local-clustering-coefficient
+   {:min 0.8666666666666667, :max 0.9821428571428571},
+   :closeness-centrality
+   {:min 0.3225806451612903, :max 0.5263157894736842},
+   :eigenvector-centrality
+   {:min 1.141865813040535E-5, :max 3.769033206648534E-5}}}}

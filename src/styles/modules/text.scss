@@ -1,0 +1,133 @@
+option,
+select,
+input,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+  font-weight: 300;
+}
+
+a {
+  color: var(--link-color);
+}
+
+::selection {
+  background-color: var(--select-text-color);
+  color: white;
+}
+
+button,
+label,
+li,
+.graph__label,
+.title,
+.subtitle {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  font-size: 6rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -2px;
+
+  @include margin;
+  @include padding;
+
+  @media (max-width: 700px) {
+    font-size: 14vw;
+  }
+
+  @include strip(
+    var(--strip-color),
+    var(--strip-height),
+    var(--strip-width),
+    2rem auto,
+    1rem auto
+  );
+}
+
+.title--no-strip {
+  @include strip(
+    transparent,
+    var(--strip-height),
+    var(--strip-width),
+    2rem auto,
+    1rem auto
+  );
+}
+
+.subtitle {
+  @include margin;
+  @include padding;
+
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  max-width: var(--text-width);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+
+  @media (max-width: 600px) {
+    font-size: 9vw;
+  }
+
+  @include strip(
+    var(--strip-color),
+    var(--strip-height),
+    var(--strip-width),
+    1rem auto 1rem 0,
+    1rem auto 0.5rem 0
+  );
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  max-width: var(--text-width);
+  line-height: 1.5;
+
+  @include margin;
+  @include padding;
+
+  @media (max-width: 490px) {
+    line-height: 1.9;
+    font-size: 4.2vw;
+  }
+}
+
+.short-explanation {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+
+  @media (max-width: 600px) {
+    font-size: 5vw;
+  }
+}
+
+blockquote {
+  display: none;
+  margin: 0 auto;
+  background: #fcfbe9;
+  outline: 1px solid var(text-color);
+  max-width: var(--text-width);
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-reference {
+  display: block;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
